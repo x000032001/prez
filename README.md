@@ -1,6 +1,15 @@
 [![npm version](https://badge.fury.io/js/prez.svg)](http://badge.fury.io/js/prez)
 [![Dependency Status](https://david-dm.org/lmtm/prez.png)](https://david-dm.org/lmtm/prez)
 
+# Warning
+If you use this repo, you should type
+```sh
+sudo npm install -g .
+```
+to install
+
+
+
 ## prez
 
 Opiniated [Reveal slideshow](http://lab.hakim.se/reveal-js) generator with nice PDF output and ability to treat [notes](https://github.com/hakimel/reveal.js#speaker-notes) as first-class content.

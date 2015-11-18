@@ -1,14 +1,21 @@
 [![npm version](https://badge.fury.io/js/prez.svg)](http://badge.fury.io/js/prez)
 [![Dependency Status](https://david-dm.org/lmtm/prez.png)](https://david-dm.org/lmtm/prez)
 
-# Warning
-If you use this repo, you should type
+# Notice
+
+In order to use fragment feature in reveal.js, I forked this repo and edited
+source with marked.js to my marked.js forked version([here](https://github.com/x000032001/marked))
+
+so if you use this repo, you should type
 ```sh
 sudo npm install -g .
 ```
 to install
 
+## How to use
 
+add __ surround with your words to add fragment, e.g. __Hello__ __World__
+and add $class:fragments$ on your head of md file
 
 ## prez
 
